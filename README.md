@@ -83,6 +83,18 @@ The Kimi campaign used ordinary internal NVMe storage: a **Samsung SSD 990 EVO P
 
 ---
 
+## Model integrity and high-assurance use
+
+QES was developed with **model integrity and evidence preservation as first-class requirements**, not as post-run checks.
+
+Before execution, the qualified expert stores are cryptographically verified. The execution environment is guarded against unintended modification, downstream results are continuously checked against the authoritative path, and qualification failures are designed to **fail closed rather than silently continue**.
+
+These properties may be particularly relevant to **high-assurance and high-risk environments** — for example medical, legal, defence, industrial or other controlled on-premises deployments — where knowing **which model data was executed, whether it remained intact, and whether the qualified execution path remained valid** can be as important as raw inference speed.
+
+QES does **not** claim regulatory, medical, legal, defence or safety certification. The published work demonstrates technical integrity mechanisms and an auditable execution approach.
+
+---
+
 ## What this repository does not publish
 
 This repository is the public project landing point for QES and the published technical evidence.
@@ -100,7 +112,7 @@ https://doi.org/10.5281/zenodo.22730031
 
 QES demonstrates **functional single-node execution and measured optimisation**, not parity with a four-node cluster and not production-chat throughput.
 
-The result is relevant where **local availability, model capability, data locality, system count or controlled on-premises execution** may matter more than interactive generation speed.
+The result is relevant where **local availability, model capability, data locality, system count, controlled on-premises execution or model-integrity assurance** may matter more than interactive generation speed.
 
 No claim is made here of regulatory certification, universal model compatibility, or equivalent performance to AMD's distributed reference implementation.
 
