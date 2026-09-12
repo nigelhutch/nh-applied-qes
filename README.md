@@ -17,7 +17,9 @@ QES investigates a different deployment question:
 
 > **Can that model class remain executable on one 128 GB Ryzen AI MAX+ system instead of requiring four coordinated machines?**
 
-The answer demonstrated by QES is **yes** — at substantially lower throughput than AMD's multi-node cluster, but with the model remaining locally executable on a single Windows machine.
+The answer demonstrated by QES is **yes** — at substantially lower throughput than AMD's four-node cluster, but with the ~375 GB model **persistently available for local execution on a single 128 GB Windows machine**. Relative to AMD's four-node reference, that reduces the required system count from four to one, **leaving three equivalent machines available for other workloads**.
+
+**QES trades throughput for machine efficiency: one node retains access to the trillion-parameter model while three equivalent nodes remain available for other work.**
 
 AMD reference:  
 https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html
