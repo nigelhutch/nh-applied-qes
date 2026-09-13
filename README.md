@@ -118,6 +118,13 @@ No claim is made here of regulatory certification, universal model compatibility
 
 ---
 
+## Contact
+
+Technical discussion, research collaboration or commercial enquiries:  
+**NH Applied — [nhapplied@gmail.com](mailto:nhapplied@gmail.com)**
+
+---
+
 ## Rights
 
 Copyright © 2026 Nigel Hutchinson / NH Applied. **All rights reserved.**
